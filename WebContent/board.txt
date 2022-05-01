@@ -1,0 +1,18 @@
+게시글
+model 패키지
+Board 클래스
+name : 작성자 이름 (문자열)
+pass : 게시글 비밀번호 (문자열)
+email : 작성자 이메일 (문자열)
+title : 게시글 제목 (문자열)
+content : 게시글 내용 (문자열)
+---------------------------
+(추가기능) createdTime : 게시글 생성 시간 ( Date )
+
+servlet 패키지
+BoardServlet 클래스 작성하기 (/board)
+
+jsp
+writeForm.jsp ==> 게시글 작성 하는 form 
+요청을 board 로 보내서
+boardInfo.jsp ==> 작성했던 게시글 정보 출력하기

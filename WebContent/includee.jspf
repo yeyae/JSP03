@@ -1,0 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%-- 
+	jspf 가 뭔가요??
+	jspf 파일은 jsp 파일과 똑같은데 include 전용 jsp 파일이라고 확장자를 구분
+	sub.jspf => 이 파일은 다른 jsp 파일에 include될 파일입니다. 라고 알려주는 역할
+--%>
+<h3>includer에서 생성한 변수 number : <%=number %></h3>
